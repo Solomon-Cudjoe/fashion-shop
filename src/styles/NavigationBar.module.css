@@ -2,31 +2,60 @@
   background: #fff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
+  height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   /* padding: 25px 69px; */
 }
 
 .logo {
-  font: 400 96px/1 "Island Moments", sans-serif;
+  margin: 50px;
+  font-size: 32px;
+}
+.logo a {
+  text-decoration: none;
   color: #000;
+  font-family: "Island Moments";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.logo a:hover {
+  color: "#FF9900";
 }
 
 .navLinks {
   display: flex;
   gap: 40px;
+  margin: 50px;
+}
+.navLinks a {
+  text-decoration: none;
   color: #000;
+  font-weight: 700;
+}
+.navLinks a:hover {
+  color: aqua;
 }
 
-.navGroup {
+/* .navGroup {
   display: flex;
   gap: 23px;
-}
+} */
 
 .navLink {
   color: inherit;
   text-decoration: none;
+}
+
+.search input {
+  width: 500px;
+  height: 2.5rem;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0, 0.5);
+  padding: 10px;
 }
 
 @media (max-width: 991px) {
