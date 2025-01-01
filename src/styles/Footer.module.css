@@ -1,0 +1,109 @@
+.footer {
+  background: #070606;
+  width: 100%;
+  padding: 47px 80px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.brandSection {
+  max-width: 300px;
+}
+
+.brandTitle {
+  color: #fff;
+  font: 700 48px Playfair Display, serif;
+}
+
+.brandDescription {
+  color: #f9f9f9;
+  font: 400 16px/24px Montserrat, sans-serif;
+  margin-top: 13px;
+}
+
+.brandIcon {
+  width: 20px;
+  margin-top: 94px;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.linkSection {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.sectionTitle {
+  color: #f9f9f9;
+  font: 400 16px/1.5 Montserrat, sans-serif;
+}
+
+.footerLink {
+  color: #f9f9f9;
+  font: 600 16px/1.5 Montserrat, sans-serif;
+  text-decoration: none;
+}
+
+.footerDivider {
+  height: 1px;
+  background: #b4b4b4;
+  margin: 49px 0 27px;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: #fff;
+  font: 400 16px/1.5 Montserrat, sans-serif;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 22px;
+}
+
+.socialIcon {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .linksContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .brandIcon {
+    margin-top: 40px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}

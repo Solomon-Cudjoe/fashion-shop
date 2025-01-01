@@ -1,0 +1,22 @@
+.productSection {
+  margin: 40px 0;
+}
+
+.categoryTitle {
+  color: rgba(0, 0, 0, 0.76);
+  letter-spacing: 0.63px;
+  font: 700 18px Montserrat, sans-serif;
+  margin-bottom: 40px;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+}

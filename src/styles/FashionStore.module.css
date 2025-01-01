@@ -1,0 +1,137 @@
+.storeContainer {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  padding: 54px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroTagline {
+  font: 500 16px Montserrat, sans-serif;
+  color: #000;
+}
+
+.heroTitle {
+  font: 700 48px Montserrat, sans-serif;
+  color: #000;
+  margin: 17px auto;
+  max-width: 989px;
+}
+
+.heroDescription {
+  font: 500 18px Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 0.76);
+  letter-spacing: 0.63px;
+  max-width: 842px;
+  margin: 38px auto;
+}
+
+.featuredImages {
+  display: flex;
+  gap: 20px;
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 125px auto;
+}
+
+.featuredImage {
+  width: 25%;
+  aspect-ratio: 0.85;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.collections {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.collectionTitle {
+  font: 700 48px Montserrat, sans-serif;
+  text-align: center;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.promoSection {
+  background: #254c22;
+  border-radius: 20px;
+  border: 4px solid #000;
+  display: flex;
+  padding: 50px;
+  margin: 100px auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.promoContent {
+  color: #fff;
+  flex: 2;
+  padding-right: 50px;
+}
+
+.promoTitle {
+  font: 700 48px Playfair Display, serif;
+  margin-bottom: 30px;
+}
+
+.promoDescription {
+  font: 500 20px Montserrat, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.promoButton {
+  border: 2px solid #fff;
+  border-radius: 44px;
+  color: #fff;
+  font: 400 20px Montserrat, sans-serif;
+  padding: 18px 50px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.promoImage {
+  flex: 1;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .heroTitle {
+    font-size: 40px;
+  }
+
+  .featuredImages {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+
+  .featuredImage {
+    width: 100%;
+  }
+
+  .promoSection {
+    flex-direction: column;
+    padding: 30px;
+    margin: 40px auto;
+  }
+
+  .promoContent {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .promoTitle {
+    font-size: 40px;
+  }
+}
