@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialLink } from "./SocialLink";
 import { ContactInfo } from "./ContactInfo";
-import { FooterColumn } from "./FooterColumn";
+
 import styles from "../styles/Contact.module.css";
 
 const socialLinks = [
@@ -42,48 +42,10 @@ const contactInfo = [
   },
 ];
 
-const footerColumns = [
-  {
-    title: "Shop",
-    links: [
-      "Men's Product",
-      "Women's Product",
-      "Winter Edition",
-      "Accessories",
-      "Discounts",
-    ],
-  },
-  {
-    title: "Company",
-    links: ["About US", "Careers", "Investors", "News", "purpose"],
-  },
-  {
-    title: "Support",
-    links: [
-      "Order Status",
-      "Shipping & Delivery",
-      "Returns",
-      "Payment Option",
-      "Contact",
-    ],
-  },
-];
 const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contactSection}>
-        <nav className={styles.navbar}>
-          <div className={styles.logo}>F</div>
-          <div className={styles.navLinks}>
-            <div>Home</div>
-            <div className={styles.navGroup}>
-              <div className={styles.navLink}>About us</div>
-              <div className={styles.navLink}>Features</div>
-              <div className={styles.navLink}>Contact us</div>
-            </div>
-          </div>
-        </nav>
-
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/522431b4561222719c9ada630b60a4bd22470b7cc136039819fce8fa8c9c9082?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
@@ -179,40 +141,6 @@ const Contact = () => {
             className={styles.mapImage}
           />
         </div>
-
-        <footer className={styles.footer}>
-          <div className={styles.footerContent}>
-            <div className={styles.footerInfo}>
-              <h2 className={styles.footerTitle}>Fashion Store</h2>
-              <p className={styles.footerDescription}>
-                Design amazing digital experiences that create more happy in the
-                world.
-              </p>
-            </div>
-            <div className={styles.footerColumns}>
-              {footerColumns.map((column, index) => (
-                <FooterColumn key={index} {...column} />
-              ))}
-            </div>
-          </div>
-          <hr className={styles.footerDivider} />
-          <div className={styles.footerBottom}>
-            <div className={styles.copyright}>
-              2023 Fashion Store. All rights reserved.
-            </div>
-            <div className={styles.socialIcons}>
-              {[12, 13, 14, 15].map((num) => (
-                <img
-                  key={num}
-                  loading="lazy"
-                  src={`http://b.io/ext_${num}-`}
-                  alt=""
-                  className={styles.footerSocialIcon}
-                />
-              ))}
-            </div>
-          </div>
-        </footer>
       </div>
     </div>
   );

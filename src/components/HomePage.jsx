@@ -3,7 +3,6 @@ import React from "react";
 
 import TestimonialCard from "../components/TestimonialCard";
 import CategorySection from "./CategoriesSection";
-import Footer from "../components/Footer";
 import styles from "../styles/HomePage.module.css";
 
 const menCategories = [
@@ -87,8 +86,6 @@ const HomePage = () => {
           ))}
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

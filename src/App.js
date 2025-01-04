@@ -11,17 +11,14 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <Navbar /> */}
         <NavigationBar />
-        <h1>Fashion Shop</h1>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
         <Footer />
       </div>
-
-      {/* <Routes>
-        <Route path="/" Component={<Home />} />
-        <Route path="/contact" Component={<Contact />} />
-        <Route path="/about" Component={<About />} />
-      </Routes> */}
     </>
   );
 }
