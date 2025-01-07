@@ -82,6 +82,22 @@
   justify-content: center;
   align-items: flex-start;
 }
+.store-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  /* background-color: #d83868; */
+}
+.store-info img {
+  width: 500px;
+  height: 700px;
+}
+.store-info span {
+  font-size: 18px;
+  text-align: center;
+}
 
 .featuredSection {
   display: flex;

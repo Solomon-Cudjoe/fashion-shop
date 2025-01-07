@@ -37,6 +37,33 @@ const AboutSection = () => {
           </div>
         </section>
 
+        <section
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "4rem",
+          }}
+        >
+          <div className={styles["store-info"]}>
+            <div>
+              <img
+                src={require("../images/batman_logo-wallpaper-2560x1440.jpg")}
+                alt=""
+              />
+            </div>
+            <div>
+              <span>
+                From everyday essentials to the latest trends, [Store Name]
+                offers a curated collection to suit your style. Our commitment
+                is to provide you with great fashion and exceptional customer
+                service.
+              </span>
+            </div>
+          </div>
+        </section>
+
         <section className={styles.locationSection}>
           <h2 className={styles.locationTitle}>Location & Accessibility</h2>
           <p className={styles.locationText}>
