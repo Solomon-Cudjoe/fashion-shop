@@ -8,13 +8,41 @@ const NavigationBar = () => {
       <nav>
         <div className={styles.navBar}>
           <div className={styles.logo}>
-            <NavLink>F</NavLink>
+            <NavLink to="/">F</NavLink>
           </div>
           <div className={styles.navLinks}>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About us</NavLink>
-            <NavLink to="/features">Features</NavLink>
-            <NavLink to="/contact">Contact us</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? styles.active : undefined
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? styles.active : undefined
+              }
+            >
+              About us
+            </NavLink>
+            <NavLink
+              to="/features"
+              className={({ isActive }) =>
+                isActive ? styles.active : undefined
+              }
+            >
+              Features
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? styles.active : undefined
+              }
+            >
+              Contact us
+            </NavLink>
           </div>
           <div className={styles.search}>
             <input type="search" placeholder="Search name of product..." />
