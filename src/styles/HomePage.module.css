@@ -16,6 +16,15 @@
   width: 100%;
   flex-direction: column;
 }
+.carousel-container {
+  height: 30%; /* Adjust height */
+}
+
+.carousel-container img {
+  height: 45rem;
+  object-fit: cover;
+  background-position: center;
+}
 
 /* Testimonials section */
 .testimonials {

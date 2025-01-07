@@ -133,14 +133,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className={styles.mapSection}>
+        {/* <div className={styles.mapSection}>
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/bbff7faaf5bca6365db0ebdfb019257028385dcb6afc57fb8fcb48ae9d04af38?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
             alt="Location map"
             className={styles.mapImage}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

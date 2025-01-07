@@ -1,5 +1,6 @@
 import React from "react";
-// import { Navbar } from "./components/Navbar";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 import TestimonialCard from "../components/TestimonialCard";
 import CategorySection from "./CategoriesSection";
@@ -68,7 +69,34 @@ const HomePage = () => {
     <div className={styles.homePage}>
       {/* Banner Section */}
       <section className={styles.banner}>
-        {/* ... Banner content ... */}
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showThumbs={false}
+          className={styles["carousel-container"]}
+        >
+          <div>
+            <img
+              className={styles["carousel-container-image"]}
+              src={require("../images/2017_spider_man_homecoming_movie-1920x1200.jpg")}
+              alt="ph"
+            />
+          </div>
+          <div>
+            <img
+              className={styles["carousel-container-image"]}
+              src={require("../images/a_way_out_2018_game_4k-3840x2160.jpg")}
+              alt="ph"
+            />
+          </div>
+          <div>
+            <img
+              className={styles["carousel-container-image"]}
+              src={require("../images/amazon-wallpaper-2560x1440.jpg")}
+              alt="ph"
+            />
+          </div>
+        </Carousel>
       </section>
 
       {/* Categories Sections */}
