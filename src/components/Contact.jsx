@@ -6,7 +6,7 @@ import {
   FaYoutube,
   FaEnvelope,
   FaPhone,
-  FaMap,
+  FaMapMarkerAlt,
 } from "react-icons/fa";
 
 import styles from "../styles/Contact.module.css";
@@ -55,7 +55,7 @@ const Contact = () => {
                     <span>0200000000</span>
                   </div>
                   <div className={styles["contact-icons-info"]}>
-                    <FaMap size={24} />
+                    <FaMapMarkerAlt size={24} />
                     <span>University of Ghana, Night Market</span>
                   </div>
                 </div>

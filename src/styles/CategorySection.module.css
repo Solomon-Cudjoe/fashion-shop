@@ -8,6 +8,21 @@
   background-color: aquamarine;
   margin-top: 20px;
 } */
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  justify-self: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.heading span {
+  height: 40px;
+  width: 10px;
+  background-color: #8a33fd;
+  border-radius: 10%;
+}
 .section {
   padding: 20px;
   display: flex;
@@ -17,6 +32,8 @@
 
 .section > section > div {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px; /* Optional: Add some space between the items */
 }

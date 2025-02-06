@@ -3,7 +3,11 @@ const CategorySection = ({ title, products }) => {
   return (
     <div className={styles.section}>
       <section>
-        <h2>{title}</h2>
+        <div className={styles.heading}>
+          <span></span>
+          <h2>{title}</h2>
+        </div>
+
         <div>
           {products.map((product, index) => (
             <div key={index}>

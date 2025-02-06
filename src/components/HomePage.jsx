@@ -6,7 +6,49 @@ import TestimonialCard from "../components/TestimonialCard";
 import CategorySection from "./CategoriesSection";
 import styles from "../styles/HomePage.module.css";
 
+const newArrivals = [
+  {
+    image:
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/448a60d1bfa44fb112235b8cd380f5936401f14d61019624b18ab8104a7c1496?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+    title: "Knitted Joggers",
+  },
+  {
+    image:
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/11fce6f31b6de5d478d0892f6c301362622b867d216add1f8b6ddfbf6ee72c20?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+    title: "Full Sleeve",
+  },
+  {
+    image:
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/44786bf5f02aac8e9d52573cb1e088faa3aa1a8dac5d9f5fedad79f4eea8f9bb?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+    title: "Activewear",
+  },
+  {
+    image:
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/6827f3fd11aa0d1c7ff4ef96d8d1b574be76bce847837a1afbe482f48c9b12c5?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+    title: "Boxers",
+  },
+];
 const menCategories = [
+  {
+    image:
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313140/photo_94_2024-07-04_13-43-05_tsyiht.jpg",
+    title: "Hoodies & Sweetshirt",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313075/photo_49_2024-07-04_13-43-05_ayqjqn.jpg",
+    title: "Hoodies & Sweetshirt",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313050/photo_28_2024-07-04_13-43-05_ueb8oa.jpg",
+    title: "Hoodies & Sweetshirt",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313027/photo_12_2024-07-04_13-43-05_rcc4oh.jpg",
+    title: "Hoodies & Sweetshirt",
+  },
   {
     image:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/448a60d1bfa44fb112235b8cd380f5936401f14d61019624b18ab8104a7c1496?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
@@ -78,26 +120,61 @@ const HomePage = () => {
           <div>
             <img
               className={styles["carousel-container-image"]}
-              src={require("../images/2017_spider_man_homecoming_movie-1920x1200.jpg")}
+              src={
+                "https://cdn.builder.io/api/v1/image/assets/TEMP/522431b4561222719c9ada630b60a4bd22470b7cc136039819fce8fa8c9c9082?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
+              }
               alt="ph"
             />
           </div>
           <div>
             <img
               className={styles["carousel-container-image"]}
-              src={require("../images/a_way_out_2018_game_4k-3840x2160.jpg")}
+              src={
+                "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721311544/cld-sample.jpg"
+              }
               alt="ph"
             />
           </div>
           <div>
             <img
               className={styles["carousel-container-image"]}
-              src={require("../images/amazon-wallpaper-2560x1440.jpg")}
+              src={
+                "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721311543/samples/woman-on-a-football-field.jpg"
+              }
               alt="ph"
             />
           </div>
         </Carousel>
       </section>
+
+      <section className={styles.bannerSection}>
+        <div className={styles.left}>
+          <div className={styles.info}>
+            <h4>Low Price</h4>
+            <h3>High Coziness</h3>
+            <h5>Up to 50% off</h5>
+            <button>Explore Items</button>
+          </div>
+          <img
+            src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313140/photo_94_2024-07-04_13-43-05_tsyiht.jpg"
+            alt=""
+          />
+        </div>
+        <div className={styles.right}>
+          <div className={styles.info}>
+            <h4>Beyoung Presents</h4>
+            <h3>Breezy Summer Style</h3>
+            <h5>Up to 50% off</h5>
+            <button>Explore Items</button>
+          </div>
+          <img
+            src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313140/photo_94_2024-07-04_13-43-05_tsyiht.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <CategorySection title="New Arrivals" products={newArrivals} />
 
       {/* Categories Sections */}
       <CategorySection title="Categories For Men" products={menCategories} />
