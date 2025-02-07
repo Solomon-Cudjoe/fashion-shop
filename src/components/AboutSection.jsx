@@ -5,8 +5,10 @@ const AboutSection = () => {
   return (
     <div className={styles.pageContainer}>
       <header className={styles.welcomeSection}>
-        <h1 className={styles.welcomeTitle}>Welcome</h1>
-        <span className={styles.welcomeSubtitle}>
+        <h1 className={styles.welcomeTitle} style={{ color: "black" }}>
+          Welcome
+        </h1>
+        <span className={styles.welcomeSubtitle} style={{ color: "black" }}>
           to Fashion Store, Your Go-To Fashion Destination!
         </span>
       </header>
@@ -14,14 +16,16 @@ const AboutSection = () => {
       <main className={styles.mainContent}>
         <section className={styles.aboutSection}>
           <div className={styles.aboutTitle}>
-            <h1>About Us</h1>
+            <h1 style={{ color: "black" }}>About Us</h1>
           </div>
           <div className={styles.missionContainer}>
-            <h2 className={styles.missionTitle}>Our Mission</h2>
-            <h3 className={styles.missionQuestion}>
+            <h2 className={styles.missionTitle} style={{ color: "black" }}>
+              Our Mission
+            </h2>
+            <h3 className={styles.missionQuestion} style={{ color: "black" }}>
               Are you looking for cloths?
             </h3>
-            <p className={styles.missionText}>
+            <p className={styles.missionText} style={{ color: "black" }}>
               If you're looking to do more than watch a simple video, we're here
               for it! Our manager, Tess, eagerly awaits assisting you with any
               of your needs. So send us your ideas about events, brand
@@ -56,7 +60,7 @@ const AboutSection = () => {
               />
             </div>
             <div>
-              <span>
+              <span style={{ color: "black" }}>
                 From everyday essentials to the latest trends, [Store Name]
                 offers a curated collection to suit your style. Our commitment
                 is to provide you with great fashion and exceptional customer
@@ -67,8 +71,10 @@ const AboutSection = () => {
         </section>
 
         <section className={styles.locationSection}>
-          <h2 className={styles.locationTitle}>Location & Accessibility</h2>
-          <p className={styles.locationText}>
+          <h2 className={styles.locationTitle} style={{ color: "black" }}>
+            Location & Accessibility
+          </h2>
+          <p className={styles.locationText} style={{ color: "black" }}>
             We're located at University of Ghana Night market or Visit us
             in-store or shop online for fast and reliable delivery!
           </p>
