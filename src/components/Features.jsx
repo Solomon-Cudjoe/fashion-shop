@@ -144,10 +144,10 @@ const Features = () => {
         <p className={styles.heroTagline}>
           Experience fashion like never before
         </p>
-        <h1 className={styles.heroTitle}>
+        <h1 className={styles.heroTitle} style={{ color: "black" }}>
           Elevate Your Style With Fashion Store: Where Fashion Meets Passion
         </h1>
-        <p className={styles.heroDescription}>
+        <p className={styles.heroDescription} style={{ color: "black" }}>
           Discover a world of fashion-forward trends, curated collections, and
           timeless pieces that inspire. Unleash your inner fashionista and
           embark on a journey of confidence, elegance and impeccable style.
@@ -175,7 +175,13 @@ const Features = () => {
       </header>
 
       <section className={styles.collections}>
-        <h1 style={{ fontSize: "32px", textTransform: "capitalize" }}>
+        <h1
+          style={{
+            fontSize: "32px",
+            textTransform: "capitalize",
+            color: "black",
+          }}
+        >
           Explore our latest collections for you
         </h1>
         <div className={styles.itemGrid}>
