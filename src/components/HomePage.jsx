@@ -9,22 +9,22 @@ import styles from "../styles/HomePage.module.css";
 const newArrivals = [
   {
     image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/448a60d1bfa44fb112235b8cd380f5936401f14d61019624b18ab8104a7c1496?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922016/4d40d5ad694b4e26bdf241623f337f91_xrpllp.jpg",
     title: "Knitted Joggers",
   },
   {
     image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/11fce6f31b6de5d478d0892f6c301362622b867d216add1f8b6ddfbf6ee72c20?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922339/dc86aa165d6840b09e6723c69a20b8b9_oohva7.jpg",
     title: "Full Sleeve",
   },
   {
     image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/44786bf5f02aac8e9d52573cb1e088faa3aa1a8dac5d9f5fedad79f4eea8f9bb?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922165/97e15c06bd70446b914640833b09294c_jxxn1e.jpg",
     title: "Activewear",
   },
   {
     image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/6827f3fd11aa0d1c7ff4ef96d8d1b574be76bce847837a1afbe482f48c9b12c5?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922014/ff58537d04b94dacb46f5d7364420f29_lwgwti.jpg",
     title: "Boxers",
   },
 ];
@@ -121,7 +121,7 @@ const HomePage = () => {
             <img
               className={styles["carousel-container-image"]}
               src={
-                "https://cdn.builder.io/api/v1/image/assets/TEMP/522431b4561222719c9ada630b60a4bd22470b7cc136039819fce8fa8c9c9082?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
+                "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922014/WhatsApp_Image_2025-02-07_at_08.59.50_d0bc6adf_r81mso.jpg"
               }
               alt="ph"
             />
@@ -156,7 +156,7 @@ const HomePage = () => {
             <button>Explore Items</button>
           </div>
           <img
-            src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313140/photo_94_2024-07-04_13-43-05_tsyiht.jpg"
+            src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922375/e6cbee162e7b4823ad81b5fc7dac1a6a_tghua6.jpg"
             alt=""
           />
         </div>
@@ -168,13 +168,58 @@ const HomePage = () => {
             <button>Explore Items</button>
           </div>
           <img
-            src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313140/photo_94_2024-07-04_13-43-05_tsyiht.jpg"
+            src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922164/91dba6e0e401480594fdaea188dfee29_heovcd.jpg"
             alt=""
           />
         </div>
       </section>
 
       <CategorySection title="New Arrivals" products={newArrivals} />
+      <div className={styles.bigSaveZone}>
+        <div className={styles.heading}>
+          <span></span>
+          <h2>Big Save Zone</h2>
+        </div>
+        <div className={styles.saveZone}>
+          <div className={styles.item1}>
+            <div className={styles.description}>
+              <h1>Hawaian Shirts</h1>
+              <p>Move with style & comfort</p>
+              <span>UPTO 50% OFF</span>
+            </div>
+          </div>
+          <div className={styles.item2}>
+            <div className={styles.description}>
+              <h1>Printed T-Shirt</h1>
+              <p>Move with style & comfort</p>
+              <span>UPTO 50% OFF</span>
+            </div>
+          </div>
+          <div className={styles.item3}>
+            <div className={styles.description}>
+              <h1>Cargo Joggers</h1>
+              <p>Move with style & comfort</p>
+              <span>UPTO 50% OFF</span>
+            </div>
+          </div>
+        </div>
+        <div className={styles.saveZoneBig}>
+          <div className={styles.item4}>
+            <div className={styles.description}>
+              <h1>Urban Shirts</h1>
+              <p>Live In Confort</p>
+              <span>FLAT 60% OFF</span>
+            </div>
+          </div>
+          <div className={styles.item5}>
+            <div className={styles.description}>
+              <h1>Oversized T-Shirts</h1>
+              <p>Street Style Icon</p>
+              <span>FLAT 60% OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Categories Sections */}
       <CategorySection title="Categories For Men" products={menCategories} />
@@ -183,14 +228,50 @@ const HomePage = () => {
         products={womenCategories}
       />
 
+      <section className={styles.brandSection}>
+        <h1>Top Brands Deal</h1>
+        <div className={styles.brandsContainer}>
+          <div className={styles.brand}>
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738927749/nike_h06x71.png"
+              alt=""
+            />
+          </div>
+          <div className={styles.brand}>
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738927749/H_M_phnumy.png"
+              alt=""
+            />
+          </div>
+          <div className={styles.brand}>
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738927749/levis_uog2xe.png"
+              alt=""
+            />
+          </div>
+          <div className={styles.brand}>
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738927749/us_polo_udhdbr.png"
+              alt=""
+            />
+          </div>
+          <div className={styles.brand}>
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738927748/puma_ac1543.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
-      <section className={styles.testimonials}>
+      {/* <section className={styles.testimonials}>
         <div className={styles.testimonialGrid}>
           {testimonials.map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

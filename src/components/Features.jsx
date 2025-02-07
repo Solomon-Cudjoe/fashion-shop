@@ -60,25 +60,25 @@ const productCategories = {
   shoes: [
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313172/photo_10_2024-07-04_13-44-12_w4shsf.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/f5e8f3f2fb834a5b9fd105f18466ca51_hmaqbp.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313191/photo_19_2024-07-04_13-44-12_fb7hdx.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922180/cd840a5bc9804711b6ffbbc348e6833c_vwgowj.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313130/photo_84_2024-07-04_13-43-05_xqesuu.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922015/2fbfdb1678f140458d57019a1ab90960_xfvz90.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313180/photo_14_2024-07-04_13-44-12_gj68q5.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922165/4844d50451274d6f831c89fe319ee0d8_rogvmc.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },
@@ -86,25 +86,25 @@ const productCategories = {
   accessories: [
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313346/photo_63_2024-07-04_13-44-12_fivu58.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922165/98ff9c5733dc4f3bb848e309fc944939_btdc4i.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313152/photo_97_2024-07-04_13-43-05_puha32.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922035/9ac25cd5f57d4495a381c22ed9b95404_m4pfjx.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313107/photo_72_2024-07-04_13-43-05_u49t5u.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922179/b0248bbeaa7f418385cdbe72172c3beb_ewbmvv.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/ffb5db091c52f5599a58b88d24c5031f409463c0df101bdc0400e14384d13906?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922173/a4120c4e1bee4a91939eb7510833f14c_fnm3mu.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },
@@ -112,25 +112,25 @@ const productCategories = {
   trousers: [
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313083/photo_56_2024-07-04_13-43-05_tmvsik.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/f391c0ab8fa84e5bba99b36b2c0a1f61_t5qlyy.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313075/photo_50_2024-07-04_13-43-05_c8rfwg.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922015/2c99ea8a4f744c8481c363e3983c1035_zissfm.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313058/photo_35_2024-07-04_13-43-05_srkgph.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922180/ba22650a74d24053887b3bb1602f9267_m0fhkh.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313036/photo_17_2024-07-04_13-43-05_xq5q3f.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922180/bd5a441f0d004741a43c26ef5d8d5572_qx3iko.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },
@@ -152,12 +152,55 @@ const Features = () => {
           timeless pieces that inspire. Unleash your inner fashionista and
           embark on a journey of confidence, elegance and impeccable style.
         </p>
+        <div>
+          <div className={styles.elevation}>
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/e60022123b3d46ce8d395c212dae1f0a_dxcfjo.jpg"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922014/0dff258befd1459d95e2b820240bf374_h15gow.jpg"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313058/photo_36_2024-07-04_13-43-05_aemwjb.jpg"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922059/52ac91f030584b05a5c025d167841cb8_kvqbil.jpg"
+              alt=""
+            />
+          </div>
+        </div>
       </header>
 
       <section className={styles.collections}>
         <h1 style={{ fontSize: "32px", textTransform: "capitalize" }}>
           Explore our latest collections for you
         </h1>
+        <div className={styles.itemGrid}>
+          <div className={`${styles.gridItem} ${styles.item1}`}>
+            <h2>Collections For Couples</h2>
+            <p>
+              Our Collection for Couple Features coordinated designs and
+              patterns, allowing couples to showcase their unity through
+              fashion.
+            </p>
+          </div>
+          <div className={`${styles.gridItem} ${styles.item2}`}>
+            <h2>Leather Watch Collection</h2>
+          </div>
+          <div className={`${styles.gridItem} ${styles.item3}`}>
+            <h2>New tote Bags Collection</h2>
+          </div>
+          <div className={`${styles.gridItem} ${styles.item4}`}>
+            <h2>Sheer Bomber Jacket</h2>
+            <p>
+              Introducing our stylish and versatile sheer clergy caped bomber
+              jacket
+            </p>
+          </div>
+        </div>
       </section>
 
       <section className={styles.featuredSection}>

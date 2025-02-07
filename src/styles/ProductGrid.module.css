@@ -22,9 +22,10 @@
 
 .collections {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .collectionsTitle {
   font-size: 32px;
@@ -80,6 +81,123 @@
   transition: 0.5s;
   color: black;
 }
+
+.itemGrid {
+  display: grid;
+  grid-template-areas:
+    "item1 item1 item4"
+    "item2 item3 item4";
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  margin: 50px;
+  width: 70%;
+}
+
+.gridItem {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.gridItem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Overlay color */
+  border-radius: 15px;
+}
+
+.gridItem h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.item1 {
+  grid-area: item1;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922340/e1f4d3a080fe4896b0c6923c33a94538_srbqjo.jpg");
+}
+
+.gridItem .item1 p {
+  color: white;
+  font-size: 16px;
+}
+
+.item2 {
+  grid-area: item2;
+  height: 250px;
+
+  background-image: url("https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922173/17741a6f81bf4116aea19b7f638ce0e2_ebzdal.jpg");
+}
+
+.item3 {
+  grid-area: item3;
+  height: 250px;
+
+  background-image: url("https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922035/7f5cff4beb7741e4a757fce4ab8be79c_r73mng.jpg");
+}
+
+.item4 {
+  grid-area: item4;
+  width: 300px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922166/7327baff1f374d329a94a0ed1548cf6e_j9llhj.jpg");
+}
+
+.gridItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.heroTagline {
+  font-size: 20px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  justify-self: center;
+}
+
+.heroDescription {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  text-align: center;
+  justify-self: center;
+}
+.elevation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.elevation img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
 @media (max-width: 991px) {
   .productGrid {
     grid-template-rows: 1fr;

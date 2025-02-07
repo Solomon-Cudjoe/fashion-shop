@@ -49,7 +49,9 @@ const AboutSection = () => {
           <div className={styles["store-info"]}>
             <div>
               <img
-                src={require("../images/batman_logo-wallpaper-2560x1440.jpg")}
+                src={
+                  "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/f446addc700c448d86855af3d50a2f97_lfdsll.jpg"
+                }
                 alt=""
               />
             </div>
