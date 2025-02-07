@@ -57,6 +57,84 @@ const productCategories = {
       type: "Men's Hoodie",
     },
   ],
+  shoes: [
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313172/photo_10_2024-07-04_13-44-12_w4shsf.jpg",
+      brand: "Bottega veneta",
+      type: "Women Exclusive Series",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313191/photo_19_2024-07-04_13-44-12_fb7hdx.jpg",
+      brand: "John Lewis",
+      type: "Any Day Collections",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313130/photo_84_2024-07-04_13-43-05_xqesuu.jpg",
+      brand: "Premium Collection",
+      type: "Designer Hoodie",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313180/photo_14_2024-07-04_13-44-12_gj68q5.jpg",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+  ],
+  accessories: [
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313346/photo_63_2024-07-04_13-44-12_fivu58.jpg",
+      brand: "Bottega veneta",
+      type: "Women Exclusive Series",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313152/photo_97_2024-07-04_13-43-05_puha32.jpg",
+      brand: "John Lewis",
+      type: "Any Day Collections",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313107/photo_72_2024-07-04_13-43-05_u49t5u.jpg",
+      brand: "Premium Collection",
+      type: "Designer Hoodie",
+    },
+    {
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/ffb5db091c52f5599a58b88d24c5031f409463c0df101bdc0400e14384d13906?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+  ],
+  trousers: [
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313083/photo_56_2024-07-04_13-43-05_tmvsik.jpg",
+      brand: "Bottega veneta",
+      type: "Women Exclusive Series",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313075/photo_50_2024-07-04_13-43-05_c8rfwg.jpg",
+      brand: "John Lewis",
+      type: "Any Day Collections",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313058/photo_35_2024-07-04_13-43-05_srkgph.jpg",
+      brand: "Premium Collection",
+      type: "Designer Hoodie",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313036/photo_17_2024-07-04_13-43-05_xq5q3f.jpg",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+  ],
 };
 
 const Features = () => {

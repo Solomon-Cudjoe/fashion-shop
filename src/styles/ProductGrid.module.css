@@ -30,6 +30,56 @@
   font-size: 32px;
   text-transform: capitalize;
 }
+
+.promoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #254c22;
+  width: 70%;
+  margin: auto;
+  height: 400px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+.promoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.promoTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.promoDescription {
+  text-align: justify;
+  color: white;
+  font-size: 16px;
+  padding: 30px;
+}
+.promoImage {
+  width: 400px;
+  height: 400px;
+}
+.promoButton {
+  border: 1px solid white;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.promoButton:hover {
+  background-color: aliceblue;
+  transition: 0.5s;
+  color: black;
+}
 @media (max-width: 991px) {
   .productGrid {
     grid-template-rows: 1fr;
