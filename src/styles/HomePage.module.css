@@ -267,6 +267,16 @@ span {
   width: 100px;
   height: 100px;
 }
+.imageSection {
+  width: 100%;
+  margin: auto;
+}
+.imageSection img {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  margin: 40px;
+}
 
 /* Media queries */
 @media (max-width: 991px) {

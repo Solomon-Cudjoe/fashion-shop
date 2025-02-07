@@ -221,6 +221,13 @@ const HomePage = () => {
         </div>
       </div>
 
+      <div className={styles.imageSection}>
+        <img
+          src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922035/8c0fa5c38dbd4bf58c30f2a0c1474c75_l6m2uz.jpg"
+          alt=""
+        />
+      </div>
+
       {/* Categories Sections */}
       <CategorySection title="Categories For Men" products={menCategories} />
       <CategorySection
