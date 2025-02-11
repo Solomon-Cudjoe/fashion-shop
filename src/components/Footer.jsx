@@ -56,9 +56,9 @@ const Footer = () => {
 
       <div className={styles.footerBottom}>
         <p className={styles.copyright}>
-          2023 Fashion Store. All rights reserved.
+          &copy;2025 BagCode Shop. All rights reserved.
         </p>
-        <div className={styles.socialLinks}>
+        {/* <div className={styles.socialLinks}>
           {["31", "32", "33", "34"].map((num) => (
             <img
               key={num}
@@ -68,7 +68,7 @@ const Footer = () => {
               className={styles.socialIcon}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </footer>
   );

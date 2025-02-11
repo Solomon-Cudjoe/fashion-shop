@@ -8,7 +8,12 @@ const NavigationBar = () => {
       <nav>
         <div className={styles.navBar}>
           <div className={styles.logo}>
-            <NavLink to="/">F</NavLink>
+            <NavLink to="/">
+              <img
+                src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279480/LOGO_eifisp.jpg"
+                alt=""
+              />
+            </NavLink>
           </div>
           <div className={styles.navLinks}>
             <NavLink

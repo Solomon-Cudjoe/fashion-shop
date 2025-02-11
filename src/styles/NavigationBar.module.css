@@ -24,6 +24,11 @@
 .logo a:hover {
   color: "#FF9900";
 }
+.logo img {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+}
 
 .navLinks {
   display: flex;
