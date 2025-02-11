@@ -159,7 +159,7 @@ const HomePage = () => {
         <div className={styles.right}>
           <div className={styles.info}>
             <h4>Beyoung Presents</h4>
-            <h3>Breezy Summer Style</h3>
+            <h3>Luxury Meets Comfort</h3>
             <h5>Up to 50% off</h5>
             <button>Explore Items</button>
           </div>
