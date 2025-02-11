@@ -6,10 +6,11 @@ const AboutSection = () => {
     <div className={styles.pageContainer}>
       <header className={styles.welcomeSection}>
         <h1 className={styles.welcomeTitle} style={{ color: "black" }}>
-          Welcome
+          Welcome to <b>BagCode</b>
         </h1>
         <span className={styles.welcomeSubtitle} style={{ color: "black" }}>
-          to Fashion Store, Your Go-To Fashion Destination!
+          where fashion meets excellence! Explore our stunning collection of
+          traditional and modern attire, designed to make you stand out
         </span>
       </header>
 
@@ -22,21 +23,27 @@ const AboutSection = () => {
             <h2 className={styles.missionTitle} style={{ color: "black" }}>
               Our Mission
             </h2>
-            <h3 className={styles.missionQuestion} style={{ color: "black" }}>
+            {/* <h3 className={styles.missionQuestion} style={{ color: "black" }}>
               Are you looking for cloths?
-            </h3>
-            <p className={styles.missionText} style={{ color: "black" }}>
-              If you're looking to do more than watch a simple video, we're here
-              for it! Our manager, Tess, eagerly awaits assisting you with any
-              of your needs. So send us your ideas about events, brand
-              partnerships, or if you have any feedback for us. We can't wait to
-              hear from you!
+            </h3> */}
+            <p
+              className={styles.missionText}
+              style={{
+                color: "black",
+                textAlign: "center",
+                marginLeft: "20px",
+              }}
+            >
+              Our mission at BagCode is to bridge the gap between traditional
+              and modern fashion, creating timeless pieces that inspire
+              confidence, self-expression, and a deep connection to our African
+              roots.
             </p>
             <div className={styles["social-icons"]}>
               <FaTwitter size={24} />
-              <FaFacebook size={24} />
+              <FaFacebook size={24} color="blue" />
               <FaInstagram size={24} />
-              <FaYoutube size={24} />
+              <FaYoutube size={24} color="red" />
             </div>
           </div>
         </section>
@@ -61,10 +68,9 @@ const AboutSection = () => {
             </div>
             <div>
               <span style={{ color: "black" }}>
-                From everyday essentials to the latest trends, [Store Name]
-                offers a curated collection to suit your style. Our commitment
-                is to provide you with great fashion and exceptional customer
-                service.
+                From everyday essentials to the latest trends, BagCode offers a
+                curated collection to suit your style. Our commitment is to
+                provide you with great fashion and exceptional customer service.
               </span>
             </div>
           </div>

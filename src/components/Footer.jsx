@@ -25,17 +25,17 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.brandSection}>
-          <h2 className={styles.brandTitle}>Fashion Store</h2>
+          <h2 className={styles.brandTitle}>BagCode </h2>
           <p className={styles.brandDescription}>
             Design amazing digital experiences that create more happy in the
             world.
           </p>
-          <img
+          {/* <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d9165fad3c59d9fe4d717cb37c826a34f8b34799953e757c930c797900b13422?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
             alt=""
             className={styles.brandIcon}
-          />
+          /> */}
         </div>
 
         <div className={styles.linksContainer}>
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className={styles.footerDivider} />
 
       <div className={styles.footerBottom}>
-        <p className={styles.copyright}>
+        <p className={styles.copyright} style={{ color: "white" }}>
           &copy;2025 BagCode Shop. All rights reserved.
         </p>
         {/* <div className={styles.socialLinks}>

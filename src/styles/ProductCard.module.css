@@ -5,25 +5,32 @@
   align-items: center;
   border-radius: 20px;
   background: #ede0cc;
-  border: 1px solid #000;
+  border: 1px solid #f0e7e7;
   padding-bottom: 40px;
   width: 300px;
 }
 
 .productImage {
   width: 300px;
-  aspect-ratio: 1;
-  object-fit: contain;
+  height: 300px;
+  /* aspect-ratio: 1;
+  object-fit: contain; */
   border-radius: 20px 20px 0 0;
 }
-
+/* .productCard img {
+  width: 300px;
+  height: 200px;
+} */
 .productInfo {
   padding: 24px 13px 0;
 }
 
 .brand {
-  font: 600 20px Inter, sans-serif;
-  color: #000;
+  /* font: 600 20px Inter, sans-serif; */
+  font-family: "Roboto", "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 600;
+  color: #c08989;
 }
 
 .type {

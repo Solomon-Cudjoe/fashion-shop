@@ -25,12 +25,13 @@ const Contact = () => {
         <div className={styles.contentWrapper}>
           <h1 className={styles.title}>Keep in touch</h1>
           <p className={styles.description}>
-            We would love to hear from you and answer any questions you may
-            have. You can contact us by filling out the form below, sending us
-            an email, or calling us on our phone number. We will get back to you
-            as soon as possible. You can also follow us on our social media
-            platforms and subscribe to our newsletter to stay updated on our
-            latest news and offers. Thank you for your interest and support.
+            Get in Touch & Book Your Customization Appointment! We'd love to
+            help you create your dream outfit! To book a customization
+            appointment or inquire about our bespoke services, please fill out
+            the form below, send us an email, or give us a call. Our team will
+            be in touch with you shortly to discuss your design ideas. Stay
+            updated on our latest collections, promotions, and style tips by
+            following us on social media.
           </p>
         </div>
 
@@ -48,15 +49,15 @@ const Contact = () => {
                 <div className={styles["contact-icons"]}>
                   <div className={styles["contact-icons-info"]}>
                     <FaEnvelope size={24} />
-                    <span>example@gmail.com</span>
+                    <span>bagcodegh1@gmail.com</span>
                   </div>
                   <div className={styles["contact-icons-info"]}>
                     <FaPhone size={24} />
-                    <span>0200000000</span>
+                    <span>+233 5490044977</span>
                   </div>
                   <div className={styles["contact-icons-info"]}>
                     <FaMapMarkerAlt size={24} />
-                    <span>University of Ghana, Night Market</span>
+                    <span>UNIVERSITY OF GHANA, COMMON WEALTH HALL</span>
                   </div>
                 </div>
                 <div className={styles["contact-icons"]}>

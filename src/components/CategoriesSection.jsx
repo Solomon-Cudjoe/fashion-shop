@@ -14,7 +14,7 @@ const CategorySection = ({ title, products }) => {
               <img
                 src={product.image}
                 alt={product.title}
-                style={{ width: "400px" }}
+                style={{ width: "400px", height: "400px" }}
               />
               <p>{product.title}</p>
             </div>

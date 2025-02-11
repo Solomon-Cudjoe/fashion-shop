@@ -31,12 +31,20 @@
   max-width: 842px;
   margin: 0 auto;
 }
+.welcomeSection {
+  margin: 50px;
+}
 .welcomeTitle {
   font-size: 52px;
+}
+b {
+  color: #d83868;
 }
 .welcomeSubtitle {
   font-size: 28px;
   font-weight: 400;
+  margin: 30px;
+  text-align: justify;
 }
 .missionContainer {
   display: flex;
@@ -75,6 +83,10 @@
   align-items: center;
   cursor: pointer;
   gap: 20px;
+}
+
+.social-icons i:hover {
+  background-color: #d83868;
 }
 .aboutSection {
   display: flex;

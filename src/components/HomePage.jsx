@@ -174,7 +174,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <CategorySection title="New Arrivals" products={newArrivals} />
+      <CategorySection title="Traditional Wears" products={newArrivals} />
       <div className={styles.bigSaveZone}>
         <div className={styles.heading}>
           <span></span>

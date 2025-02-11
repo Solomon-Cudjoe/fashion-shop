@@ -8,13 +8,13 @@ const productCategories = {
   shirts: [
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/73dd2caa2605e5b3a87bac74f9ec5d1cc4bd0bb5e2d5b77c4d0602fd22ba8b70?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279489/475888075_18342818566196590_6672737505778601894_n_xe2jc5.jpg",
       brand: "Levis Dri- FIT",
       type: "Men's T-shirt",
     },
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/7c43a3a6b60f6a5dfc99b07f0b6efb6df360151dd7b133d209aee9ba43e45691?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279476/470920317_18337670668196590_5440348112300000624_n_jshhue.jpg",
       brand: "Levis Dri- FIT",
       type: "Men's T-shirt",
     },
@@ -26,7 +26,7 @@ const productCategories = {
     },
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/29d2951ea0da8595000f4cfecd68127cea74c205478a7acf5d6353efa5e74f8a?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279478/455497225_906585618177135_5872876147594982574_n_r6ws4m.jpg",
       brand: "Jack & Jones Re",
       type: "Men's T-shirt",
     },
@@ -60,25 +60,25 @@ const productCategories = {
   shoes: [
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/f5e8f3f2fb834a5b9fd105f18466ca51_hmaqbp.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279482/0f3197dcadd9dcdeed6cb2d76da862e8_rcwcpv.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922180/cd840a5bc9804711b6ffbbc348e6833c_vwgowj.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279490/7b424a1cde6c6baac29018eaa79e088a_p39efz.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922015/2fbfdb1678f140458d57019a1ab90960_xfvz90.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279490/04ab17ae070bbe2117ebbad73ea99a2a_q22uam.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922165/4844d50451274d6f831c89fe319ee0d8_rogvmc.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279483/7218843722d3382f8475baa2209a5372_kc42ak.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },
@@ -145,29 +145,28 @@ const Features = () => {
           Experience fashion like never before
         </p>
         <h1 className={styles.heroTitle} style={{ color: "black" }}>
-          Elevate Your Style With Fashion Store: Where Fashion Meets Passion
+          Elevate Your Style With BagCode
         </h1>
         <p className={styles.heroDescription} style={{ color: "black" }}>
-          Discover a world of fashion-forward trends, curated collections, and
-          timeless pieces that inspire. Unleash your inner fashionista and
-          embark on a journey of confidence, elegance and impeccable style.
+          Your One-Stop Shop for African Heritage Fashion and
+          High-End Global Styles
         </p>
         <div>
           <div className={styles.elevation}>
             <img
-              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/e60022123b3d46ce8d395c212dae1f0a_dxcfjo.jpg"
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1739286023/Women_Shoe_qfscnr.jpg"
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922014/0dff258befd1459d95e2b820240bf374_h15gow.jpg"
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1739286023/WhatsApp_Image_2025-02-11_at_14.57.50_79b57848_waknvr.jpg"
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1721313058/photo_36_2024-07-04_13-43-05_aemwjb.jpg"
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279492/8c5e1fff47f6fc6196efd2bd6742fff6_fxd7up.jpg"
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922059/52ac91f030584b05a5c025d167841cb8_kvqbil.jpg"
+              src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279476/471649412_18337670692196590_6747721882774860719_n_mx76cx.jpg"
               alt=""
             />
           </div>

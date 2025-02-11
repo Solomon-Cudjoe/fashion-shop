@@ -43,6 +43,7 @@
   color: #000;
   margin-top: 15px;
   font: 300 16px/28px "Inter", sans-serif;
+  text-align: justify;
 }
 
 .mainContent {

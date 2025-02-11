@@ -10,8 +10,9 @@
 }
 
 .logo {
-  margin: 50px;
+  /* margin: 50px; */
   font-size: 32px;
+  margin-top: 20px;
 }
 .logo a {
   text-decoration: none;
@@ -26,8 +27,9 @@
 }
 .logo img {
   width: 80px;
-  height: 80px;
+  height: 70px;
   background-position: center;
+  /* top: 20px; */
 }
 
 .navLinks {
@@ -73,6 +75,7 @@
 @media (max-width: 991px) {
   .navBar {
     padding: 20px;
+    margin-top: 20px;
   }
 
   .logo {
