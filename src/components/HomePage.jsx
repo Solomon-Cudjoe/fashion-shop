@@ -2,29 +2,29 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-import TestimonialCard from "../components/TestimonialCard";
+// import TestimonialCard from "../components/TestimonialCard";
 import CategorySection from "./CategoriesSection";
 import styles from "../styles/HomePage.module.css";
 
 const newArrivals = [
   {
     image:
-      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922016/4d40d5ad694b4e26bdf241623f337f91_xrpllp.jpg",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739278767/WhatsApp_Image_2025-02-11_at_12.50.59_a10562c0_yeltmt.jpg",
     title: "Knitted Joggers",
   },
   {
     image:
-      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922339/dc86aa165d6840b09e6723c69a20b8b9_oohva7.jpg",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739278765/WhatsApp_Image_2025-02-11_at_12.50.36_462d0d71_tr8kg9.jpg",
     title: "Full Sleeve",
   },
   {
     image:
-      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922165/97e15c06bd70446b914640833b09294c_jxxn1e.jpg",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739278659/315774606_171958575484322_3034361572100752672_n_murdsq.jpg",
     title: "Activewear",
   },
   {
     image:
-      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922014/ff58537d04b94dacb46f5d7364420f29_lwgwti.jpg",
+      "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739278658/281265144_363270742444302_1168301580833278439_n_vtrjtn.jpg",
     title: "Boxers",
   },
 ];
@@ -94,17 +94,17 @@ const womenCategories = [
   },
 ];
 
-const testimonials = [
-  {
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/176ead3935b695e3eb60274c5c82206c5648a9d68ddd13ee926fc377b57cf496?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
-    name: "Floyd Miles",
-    rating: 5,
-    review:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-  },
-  // ... other testimonials
-];
+// const testimonials = [
+//   {
+//     image:
+//       "https://cdn.builder.io/api/v1/image/assets/TEMP/176ead3935b695e3eb60274c5c82206c5648a9d68ddd13ee926fc377b57cf496?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+//     name: "Floyd Miles",
+//     rating: 5,
+//     review:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+//   },
+//   // ... other testimonials
+// ];
 
 const HomePage = () => {
   return (
