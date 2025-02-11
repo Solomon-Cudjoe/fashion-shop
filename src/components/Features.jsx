@@ -34,25 +34,25 @@ const productCategories = {
   hoodies: [
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/79ee2797a9184669b3c649162ac8856ba163e20a6118e2bf68f15637ba99603a?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739288883/WhatsApp_Image_2025-02-11_at_15.44.03_8aa99d5e_eqyo8z.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/b0fbc881eff33ed40a10e01f93b5333c96e0727d209221ab1690322b1ac2b2e4?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739288883/WhatsApp_Image_2025-02-11_at_15.44.04_9c6f1eca_w7s38r.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/410a7a982d597388287e07a28b3772389eb3e181faa8b6c6874869d699f19075?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739288882/WhatsApp_Image_2025-02-11_at_15.44.04_ddda0a52_yklgr1.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://cdn.builder.io/api/v1/image/assets/TEMP/ffb5db091c52f5599a58b88d24c5031f409463c0df101bdc0400e14384d13906?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739288881/WhatsApp_Image_2025-02-11_at_15.44.03_bdedf9f4_dwytz9.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },

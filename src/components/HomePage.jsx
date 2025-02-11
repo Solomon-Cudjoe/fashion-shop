@@ -120,9 +120,7 @@ const HomePage = () => {
           <div>
             <img
               className={styles["carousel-container-image"]}
-              src={
-                "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922014/WhatsApp_Image_2025-02-07_at_08.59.50_d0bc6adf_r81mso.jpg"
-              }
+              src={require("../images/serious-curly-haired-female-buyer-carries-bag-picks-up-yellow-clothes-concentrated-smartphone-poses-near-rack-stylish-clothing-makes-purchase.jpg")}
               alt="ph"
             />
           </div>
@@ -138,9 +136,7 @@ const HomePage = () => {
           <div>
             <img
               className={styles["carousel-container-image"]}
-              src={
-                "https://res.cloudinary.com/dkiafrm7z/image/upload/v1721311543/samples/woman-on-a-football-field.jpg"
-              }
+              src={require("../images/shopping-technology-people-concept-nervous-curly-female-stylist-poses-near-lot-white-clothes-racks-wears-red-knitted-sweater-uses-mobile-phone.jpg")}
               alt="ph"
             />
           </div>

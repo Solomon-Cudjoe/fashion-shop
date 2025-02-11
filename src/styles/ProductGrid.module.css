@@ -1,5 +1,6 @@
 .productSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin: auto;
@@ -10,7 +11,7 @@
   color: rgba(0, 0, 0, 0.76);
   letter-spacing: 0.63px;
   font: 700 18px Montserrat, sans-serif;
-  margin-right: -150px;
+  margin-left: 80px;
 }
 
 .productGrid {
