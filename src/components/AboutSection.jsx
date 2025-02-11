@@ -59,12 +59,13 @@ const AboutSection = () => {
         >
           <div className={styles["store-info"]}>
             <div>
-              <img
-                src={
-                  "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/f446addc700c448d86855af3d50a2f97_lfdsll.jpg"
-                }
-                alt=""
-              />
+              <video
+                controls
+                autoPlay
+                muted
+                loop
+                src={require("../WhatsApp Video 2025-02-11 at 16.28.28_fdfbc137.mp4")}
+              ></video>
             </div>
             <div>
               <span style={{ color: "black" }}>
@@ -81,8 +82,7 @@ const AboutSection = () => {
             Location & Accessibility
           </h2>
           <p className={styles.locationText} style={{ color: "black" }}>
-            We're located at University of Ghana Night market or Visit us
-            in-store or shop online for fast and reliable delivery!
+            We're located at University of Ghana Commonwealth Hall
           </p>
         </section>
       </main>

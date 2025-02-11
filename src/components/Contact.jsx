@@ -70,7 +70,12 @@ const Contact = () => {
                     <FaFacebook size={24} />
                     <span>@BagCodeLuxuryFashion</span>
                   </div>
-                  <div className={styles["contact-icons-info"]}>
+                  <div
+                    className={styles["contact-icons-info"]}
+                    onClick={() =>
+                      window.open("https://www.instagram.com/bagcodeofficial/")
+                    }
+                  >
                     <FaInstagram size={24} />
                     <span> @BagCodeOfficial</span>
                   </div>

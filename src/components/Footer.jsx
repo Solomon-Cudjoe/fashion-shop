@@ -2,25 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/Footer.module.css";
 
-const Footer = () => {
-  const footerLinks = {
-    shop: [
-      "Men's Product",
-      "Women's Product",
-      "Winter Edition",
-      "Accessories",
-      "Discounts",
-    ],
-    company: ["About US", "Careers", "Investors", "News", "Purpose"],
-    support: [
-      "Order Status",
-      "Shipping & Delivery",
-      "Returns",
-      "Payment Option",
-      "Contact",
-    ],
-  };
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
+const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
@@ -30,25 +14,13 @@ const Footer = () => {
             Design amazing digital experiences that create more happy in the
             world.
           </p>
-          {/* <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d9165fad3c59d9fe4d717cb37c826a34f8b34799953e757c930c797900b13422?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
-            alt=""
-            className={styles.brandIcon}
-          /> */}
         </div>
 
         <div className={styles.linksContainer}>
-          {Object.entries(footerLinks).map(([section, links]) => (
-            <div key={section} className={styles.linkSection}>
-              <h3 className={styles.sectionTitle}>{section}</h3>
-              {links.map((link, index) => (
-                <Link key={index} className={styles.footerLink}>
-                  {link}
-                </Link>
-              ))}
-            </div>
-          ))}
+          <Link to="/">Home</Link>
+          <Link to="about">About us</Link>
+          <Link to="features">Features</Link>
+          <Link to="contact">Contact us</Link>
         </div>
       </div>
 
@@ -58,17 +30,35 @@ const Footer = () => {
         <p className={styles.copyright} style={{ color: "white" }}>
           &copy;2025 BagCode Shop. All rights reserved.
         </p>
-        {/* <div className={styles.socialLinks}>
-          {["31", "32", "33", "34"].map((num) => (
-            <img
-              key={num}
-              loading="lazy"
-              src={`http://b.io/ext_${num}-`}
-              alt=""
-              className={styles.socialIcon}
-            />
-          ))}
-        </div> */}
+        <div className={styles.socialLinks}>
+          <div className={styles["contact-icons"]}>
+            <div className={styles["contact-icons-info"]}>
+              <i>
+                {" "}
+                <FaTwitter size={24} color="white" />
+              </i>
+            </div>
+            <div className={styles["contact-icons-info"]}>
+              <i>
+                {" "}
+                <FaFacebook size={24} color="white" />
+              </i>
+            </div>
+            <div
+              className={styles["contact-icons-info"]}
+              onClick={() =>
+                window.open("https://www.instagram.com/bagcodeofficial/")
+              }
+            >
+              <i>
+                <FaInstagram size={24} color="white" />
+              </i>
+            </div>
+            {/* <div className={styles["contact-icons-info"]}>
+              <FaYoutube size={24} color="white" />
+            </div> */}
+          </div>
+        </div>
       </div>
     </footer>
   );

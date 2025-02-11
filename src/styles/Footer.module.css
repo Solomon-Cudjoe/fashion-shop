@@ -34,7 +34,19 @@
 
 .linksContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 100px;
+  top: 30px;
+}
+.linksContainer a {
+  color: #f9f9f9;
+  text-decoration: none;
+  top: 30px;
+}
+
+.linksContainer a:hover {
+  color: #f5a022;
 }
 
 .linkSection {
@@ -75,12 +87,25 @@
 
 .socialLinks {
   display: flex;
+  flex-direction: row;
   gap: 22px;
 }
 
 .socialIcon {
   width: 25px;
   height: 25px;
+}
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+i:hover {
+  color: #f5a022;
+  width: 10px;
 }
 
 @media (max-width: 991px) {
