@@ -232,7 +232,7 @@ const HomePage = () => {
       />
 
       <section className={styles.brandSection}>
-        <h1>Top Brands Deal</h1>
+        <h1> Available Top Brands Deal</h1>
         <div className={styles.brandsContainer}>
           <div className={styles.brand}>
             <img

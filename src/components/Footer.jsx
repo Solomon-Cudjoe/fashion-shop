@@ -11,8 +11,9 @@ const Footer = () => {
         <div className={styles.brandSection}>
           <h2 className={styles.brandTitle}>BagCode </h2>
           <p className={styles.brandDescription}>
-            Design amazing digital experiences that create more happy in the
-            world.
+            Our mission at BagCode is to bridge the gap between traditional and
+            modern fashion, creating timeless pieces that inspire confidence,
+            self-expression, and a deep connection to our African roots.
           </p>
         </div>
 

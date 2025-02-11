@@ -56,6 +56,10 @@ b {
   padding: 30px;
   background-color: #ede0cc;
 }
+
+.missionText {
+  text-align: justify;
+}
 .mainContent {
   display: flex;
   flex-direction: column;

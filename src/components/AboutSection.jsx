@@ -30,7 +30,7 @@ const AboutSection = () => {
               className={styles.missionText}
               style={{
                 color: "black",
-                textAlign: "center",
+                textAlign: "justify",
                 marginLeft: "20px",
               }}
             >
@@ -68,7 +68,7 @@ const AboutSection = () => {
               ></video>
             </div>
             <div>
-              <span style={{ color: "black" }}>
+              <span style={{ color: "black", textAlign: "justify" }}>
                 From everyday essentials to the latest trends, BagCode offers a
                 curated collection to suit your style. Our commitment is to
                 provide you with great fashion and exceptional customer service.
