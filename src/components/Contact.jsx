@@ -3,7 +3,6 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagram,
-  FaYoutube,
   FaEnvelope,
   FaPhone,
   FaMapMarkerAlt,
@@ -78,10 +77,6 @@ const Contact = () => {
                   >
                     <FaInstagram size={24} />
                     <span> @BagCodeOfficial</span>
-                  </div>
-                  <div className={styles["contact-icons-info"]}>
-                    <FaYoutube size={24} />
-                    <span>example@gmail.com</span>
                   </div>
                 </div>
                 <div className={styles.hoursSection}>
