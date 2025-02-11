@@ -86,25 +86,49 @@ const productCategories = {
   accessories: [
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922165/98ff9c5733dc4f3bb848e309fc944939_btdc4i.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287068/WhatsApp_Image_2025-02-11_at_15.16.28_f04eed9c_n3dvj7.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922035/9ac25cd5f57d4495a381c22ed9b95404_m4pfjx.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287067/WhatsApp_Image_2025-02-11_at_15.16.28_1498ba88_xyzilo.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922179/b0248bbeaa7f418385cdbe72172c3beb_ewbmvv.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739286758/WhatsApp_Image_2025-02-11_at_15.11.28_ff491ba6_ffwept.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922173/a4120c4e1bee4a91939eb7510833f14c_fnm3mu.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739286758/WhatsApp_Image_2025-02-11_at_15.11.07_001296b2_htao4h.jpg",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287068/WhatsApp_Image_2025-02-11_at_15.16.06_bdd22069_snw8f1.jpg",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287068/WhatsApp_Image_2025-02-11_at_15.16.05_75844fbf_getrwn.jpg",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287067/WhatsApp_Image_2025-02-11_at_15.16.28_f2b09807_sdknjk.jpg",
+      brand: "Jack & Jones Re",
+      type: "Men's Hoodie",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287067/WhatsApp_Image_2025-02-11_at_15.16.28_b1dd9ef0_tkkd0d.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },
@@ -112,25 +136,25 @@ const productCategories = {
   trousers: [
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922013/f391c0ab8fa84e5bba99b36b2c0a1f61_t5qlyy.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287753/WhatsApp_Image_2025-02-11_at_15.22.47_c95d2a98_vn4oqz.jpg",
       brand: "Bottega veneta",
       type: "Women Exclusive Series",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922015/2c99ea8a4f744c8481c363e3983c1035_zissfm.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287752/WhatsApp_Image_2025-02-11_at_15.22.46_3df5c13e_b7smol.jpg",
       brand: "John Lewis",
       type: "Any Day Collections",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922180/ba22650a74d24053887b3bb1602f9267_m0fhkh.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287752/WhatsApp_Image_2025-02-11_at_15.22.46_2da68e3a_gecave.jpg",
       brand: "Premium Collection",
       type: "Designer Hoodie",
     },
     {
       image:
-        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1738922180/bd5a441f0d004741a43c26ef5d8d5572_qx3iko.jpg",
+        "https://res.cloudinary.com/dkiafrm7z/image/upload/v1739287752/WhatsApp_Image_2025-02-11_at_15.22.46_75cee642_qj2vp0.jpg",
       brand: "Jack & Jones Re",
       type: "Men's Hoodie",
     },
@@ -199,7 +223,6 @@ const Features = () => {
             <h2>New tote Bags Collection</h2>
           </div>
           <div className={`${styles.gridItem} ${styles.item4}`}>
-            <h2>Sheer Bomber Jacket</h2>
             <p>
               Introducing our stylish and versatile sheer clergy caped bomber
               jacket
@@ -230,7 +253,7 @@ const Features = () => {
           <button className={styles.promoButton}>Shop Now</button>
         </div>
         <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/316f010bd50a3545c88d54e8297273af87dff5875395a362784e3add755ca111?placeholderIfAbsent=true&apiKey=621e179175074866811ad37de5ce7d83"
+          src="https://res.cloudinary.com/dkiafrm7z/image/upload/v1739279476/471649412_18337670692196590_6747721882774860719_n_mx76cx.jpg"
           alt="Holiday season promotion"
           className={styles.promoImage}
           loading="lazy"

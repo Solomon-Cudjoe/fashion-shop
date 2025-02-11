@@ -64,15 +64,15 @@ const Contact = () => {
                   <h3>Social</h3>
                   <div className={styles["contact-icons-info"]}>
                     <FaTwitter size={24} />
-                    <span>example@gmail.com</span>
+                    <span> @BagCodeStyle</span>
                   </div>
                   <div className={styles["contact-icons-info"]}>
                     <FaFacebook size={24} />
-                    <span>example@gmail.com</span>
+                    <span>@BagCodeLuxuryFashion</span>
                   </div>
                   <div className={styles["contact-icons-info"]}>
                     <FaInstagram size={24} />
-                    <span>example@gmail.com</span>
+                    <span> @BagCodeOfficial</span>
                   </div>
                   <div className={styles["contact-icons-info"]}>
                     <FaYoutube size={24} />
@@ -82,9 +82,9 @@ const Contact = () => {
                 <div className={styles.hoursSection}>
                   <h3 className={styles.hoursTitle}>Hours</h3>
                   <div className={styles.hours}>
-                    08:00 - 12.00 Uhr
+                    MON TO FRI - 9AM - 6:30PM
                     <br />
-                    13.00 - 17:00 Uhr
+                    SAT- 10 AM  TO 7PM
                   </div>
                 </div>
               </div>
